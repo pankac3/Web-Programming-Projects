@@ -1,0 +1,57 @@
+/* For everything*/
+* {
+    box-sizing: border-box;
+}
+
+/* For header */
+.header {
+	background-color: darkgrey;
+	font-size: 25pt;
+	padding: 50px;
+	text-align: center;
+	text-shadow: 1px 1px black;
+}
+
+/* For navigation bar */
+.nav {
+	background-color: grey;
+	float: left;
+	height: 700px;
+    padding: 20px;
+    width: 25%;
+}
+
+/* For home page content */
+.content {
+	background-color: lightgrey;
+	float: left;
+	height: 700px;
+    padding: 20px;
+    width: 75%;
+}
+
+/* For registration page content*/
+.register {
+	background-color: lightgrey;
+	float: left;
+	height: 700px;
+    padding: 20px;
+    width: 75%;
+}
+
+/* For footer */
+.footer {
+	background-color: beige;
+	padding: 20px;
+    text-align: center;
+}
+
+/* For tablets: */
+@media only screen and (max-width:800px) {
+
+}
+	
+/* For mobile phones: */
+@media only screen and (max-width:500px) {
+
+}
